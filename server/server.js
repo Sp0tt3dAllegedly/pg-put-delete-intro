@@ -9,7 +9,11 @@ app.use( bodyParser.urlencoded( {extended: true} ) );
 
 // routes here
 
-
+// establish /music route
+app.get('/music', (req, res) => {
+    console.log('in GET /music');
+    res.send();
+});
 
 //server start up
 const PORT = process.env.PORT || 5000;

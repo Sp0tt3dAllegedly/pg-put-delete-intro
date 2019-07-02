@@ -2,8 +2,14 @@ body {
     margin: 0;
 }
 
-h1 {
-    
+main {
+    width: 90%;
+    margin: auto;
+
+}
+
+section {
+    padding: 10px
 }
 
 header {
