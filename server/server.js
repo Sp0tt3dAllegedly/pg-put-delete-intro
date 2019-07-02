@@ -1,6 +1,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 
+// get the database pool 
+const pool = require('./modules/pool');
+
+
 // Setting up express app
 const app = express();
 
